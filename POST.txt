@@ -1,0 +1,3 @@
+curl -X POST http://192.168.1.101:3000/users \
+     -H "Content-Type: application/json" \
+     -d '{"name": "Shyam", "email": "Shyam@gmail.com"}'
